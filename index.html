@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Slider v2.0</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+    
+    <section class="slider-container">
+        <div class="previous-button">
+            <i class="fa fa-arrow-left"></i>
+        </div><!--end previous button-->
+
+        <main class="sliders">
+            <figure class="slider-images">
+                <img src="assets/images/art1.jpg" class="slide-image active" id="slide1" alt="Art 1">
+                <img src="assets/images/art2.jpg" class="slide-image" id="slide2" alt="Art 2">
+                <img src="assets/images/art3.jpg" class="slide-image" id="slide3" alt="Art 3">
+                <img src="assets/images/art4.jpg" class="slide-image" id="slide4" alt="Art 4">
+                <img src="assets/images/art5.jpg" class="slide-image" id="slide5" alt="Art 5">
+            </figure><!--end slider images-->
+
+            <div class="navegation-button">
+                <button type="button" class="button1"></button>
+                <button type="button" class="button2"></button>
+                <button type="button" class="button3"></button>
+                <button type="button" class="button4"></button>
+                <button type="button" class="button5"></button>
+            </div><!--end navegation button-->
+        </main><!--end sliders-->
+
+        <div class="next-button">
+            <i class="fa fa-arrow-right"></i>
+        </div><!--end next button-->
+
+    </section><!--end slider container section-->
+
+    <script src="assets/js/slider.js"></script>
+</body>
+</html>
