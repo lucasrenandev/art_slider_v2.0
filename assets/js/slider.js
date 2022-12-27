@@ -1,8 +1,8 @@
 // Elementos
 const previousButton = document.querySelector(".previous-button")
 const nextButton = document.querySelector(".next-button")
-const images = document.querySelectorAll(".slide-image")
 const navegationButton = document.querySelectorAll(".navegation-button button")
+const images = document.querySelectorAll(".slide-image")
 
 // Slide atual
 let currentSlide = 0
@@ -26,7 +26,7 @@ function previousSlide() {
     slideIndicator(currentSlide + 1)
 }
 
-// Indicador de slide
+// Índicador de slide
 function slideIndicator(index) {
     navegationButton.forEach(button => {
         button.style.backgroundColor = "transparent"
